@@ -1,0 +1,16 @@
+package subset_type
+
+brief = "Restrict possible values of a type to a finite list of elements"
+readme = Readme.md
+version = 0.1.0
+
+author = Nicolas Biri <nicolas@biri.name>
+maintainer = Nicolas Biri <nicolas@biri.name>
+
+sourceloc = https://github.com/berewt/UnionType
+bugtracker = https://github.com/berewt/UnionType/issues
+
+pkgs = sublist
+sourcedir = src
+
+modules = Data.Subset
