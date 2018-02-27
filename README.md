@@ -30,3 +30,10 @@ And "fold" the value of a `OneOf` thanks to a list of pairs:
 answer : Nat
 answer = foldOneOf [("foo", 42),("bar",54)] foo
 ```
+
+You can also list all the elements of a 'OneOf':
+
+```idris
+fooBar : List FooBar
+fooBar = allOf
+```
