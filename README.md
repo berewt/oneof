@@ -14,7 +14,7 @@ foo = member "foo"
 
 -- KO
 baz : FooBar
-baz = member "bar"
+baz = member "baz"
 ```
 
 You can even "translate" a value
