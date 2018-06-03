@@ -21,7 +21,7 @@ You can even "translate" a value
 
 ```idris
 fooWider : OneOf ["bar", "baz", "foo"]
-fooWoder = translate foo
+fooWider = translate foo
 ```
 
 And "fold" the value of a `OneOf` thanks to a list of pairs:
